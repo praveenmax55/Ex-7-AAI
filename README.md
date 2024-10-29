@@ -1,7 +1,7 @@
-<H4>Vaishnavi M</H4>
-<H4>212221240058</H4>
+<H4>Praveen D</H4>
+<H4>212222240076</H4>
 <H4>EX. NO.7</H4>
-<H4>DATE: 21.10.24</H4>
+<H4>DATE: 29.10.24</H4>
 <H1 ALIGN =CENTER>Implementation of Text  Summarization</H1>
 
 ## Aim: 
