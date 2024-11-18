@@ -61,7 +61,8 @@ def generate_summary(text,num_sentences=3):
 				else:
 					sentence_scores[sentence]+= freq
 	# Select top N sentences with highest scores
-	summary_sentences= sorted(sentence_scores, key=sentence_scores.get,reverse=True) [ : num_sentences]
+	summary_sentences= sorted(sentence_scores, key=sentence_scores.get,reverse=True)
+ [ : num_sentences]
 
 	return ' '. join(summary_sentences)
 
@@ -69,7 +70,8 @@ if __name__=="__main__":
 	input_text ="""
 	Natural language processing (NLP) is a subfield of artificial intelligence.
 	It involves the development of algorithms and models that enact NLP.
-	NLP is used in various applications, including chatbots, language Understanding, and language generation.
+	NLP is used in various applications, including chatbots, language Understanding, and
+language generation.
 	This program demonstrates a simple text summarization using NLP"""
 summary = generate_summary(input_text)
 print("Origina1 Text: ")
